@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Birthday Greetings Website
 
 A beautiful website to display birthday greetings with videos from different people. The site features a modern design with animated confetti effects and responsive layout.
@@ -51,3 +52,6 @@ http://localhost:3000
 - `index.html` - Main page with greeting cards
 - `greetings/` - Directory containing individual greeting pages and videos
 - `simple-server.js` - Express server for hosting the website 
+=======
+# bb
+>>>>>>> a0ec1eeb9c02044af8b30bc79f980e1b65640756
