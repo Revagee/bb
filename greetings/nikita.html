@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Никитос поздравляет с днюхой!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+
+        .header h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background: white;
+            color: #333;
+            text-decoration: none;
+            border-radius: 25px;
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .back-button:hover {
+            transform: translateY(-2px);
+        }
+
+        .greeting-content {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            margin-bottom: 2rem;
+            background: #000;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .video-container video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .message {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+        }
+
+        .signature {
+            font-style: italic;
+            text-align: right;
+            font-size: 1.1rem;
+            color: #666;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+
+            .header h1 {
+                font-size: 2rem;
+            }
+
+            .greeting-content {
+                padding: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../index.html" class="back-button">← Вернутся к поздравлениям</a>
+            <h1>Слишком обычное поздравление от Никиты</h1>
+        </div>
+
+        <div class="greeting-content">
+            <!-- Video Section -->
+            <div class="video-container">
+                <video controls>
+                    <source src="nikita.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+
+            <!-- Message Section -->
+            <div class="message">
+                <p>
+                    Бодька,
+                </p>
+                <br>
+                <p>
+                    С днём рождения тебя! 🎉
+                    Сегодня твой день — день, когда мир стал чуточку лучше, потому что появился ты. Хочу пожелать тебе всего самого яркого, настоящего и доброго. Пусть каждый день дарит повод для улыбки, каждое утро начинается с вдохновения, а вечер приносит чувство гордости за прожитый день.
+                    
+                    Пусть жизнь будет насыщенной, как картина мастера — с яркими мазками счастья, светлыми оттенками любви, уверенными линиями успеха и глубиной настоящей дружбы. Желаю, чтобы твои мечты не просто сбывались, а поражали тебя масштабом исполнения. Чтобы каждый шаг вперёд был уверенным и приводил к желанному результату.
+                    
+                    Ты человек, рядом с которым хочется быть — за твою силу духа, верность своим словам и внутренний свет. Пусть в тебе всегда будет энергия двигаться вперёд, мудрость принимать решения и лёгкость, чтобы просто наслаждаться жизнью.
+                    
+                    Желаю тебе здоровья — крепкого, как скала, удачи — верной спутницы в каждом деле, и любви — такой, что вдохновляет на подвиги. Пусть рядом будут только те, кто поддерживает, ценит и верит в тебя.
+                    
+                    С днём рождения, Богдан! Пусть этот год будет лучше всех предыдущих — и только началом чего-то ещё более великого!
+                    P.S: Это гпт сформулировал, вдруг не понял, решил выделиться.
+                </p>
+            </div>
+
+            <!-- Signature -->
+            <div class="signature">
+                С любовью,<br>
+                Некит
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
